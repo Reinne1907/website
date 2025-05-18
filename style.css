@@ -19,6 +19,11 @@ body {
 a {
     display: inline-block;
 }
+
+a:focus {
+    outline: none;
+}
+
 #cat_under {
     color: rgb(189, 1, 1);
 }
