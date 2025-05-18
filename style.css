@@ -75,7 +75,11 @@ a {
     color: white;
     font-size: 16px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
 
+#freerobux:hover {
+    background-color: rgb(0, 206, 0);
 }
 
 .dbutton {
@@ -89,6 +93,11 @@ a {
     color: white;
     font-size: 16px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dbutton:hover {
+    background-color: rgb(0, 206, 0);
 }
 
 #goof {
