@@ -34,6 +34,10 @@ a:focus {
     outline: none;
 }
 
+.dbutton:focus {
+    outline: none;
+}
+
 #cat_under {
     color: rgb(189, 1, 1);
 }
