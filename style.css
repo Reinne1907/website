@@ -1,7 +1,17 @@
 body {
     background-color: rgb(35, 15, 54);
     text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("clhac_bgpart.png");
+    background-size: 125px;
+    background-repeat: repeat;
+    background-position: center;
+    animation: moveBg 40s linear infinite;
+}
+
+@keyframes moveBg {
+    from {background-position: 0 -1000px;}
+    to {background-position: 0 0;}
 }
 
 #title {
